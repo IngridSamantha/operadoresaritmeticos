@@ -1,0 +1,2 @@
+m = float(input('Digite o valor em Metros: '))
+print('A medida de {} Metros em centimentros é {}cm \n e em milímetros é {}mm'.format(m, m*100, m*1000))
