@@ -1,0 +1,4 @@
+pre = float(input('Digite o preço do produto: '))
+npre = pre - (pre * 5 / 100)
+
+print('O novo valor do produto com 5% de desconto é: R$ ', npre)
