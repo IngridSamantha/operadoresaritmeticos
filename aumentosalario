@@ -1,0 +1,5 @@
+funcionario = str (input('Digite o nome do funcionario: '))
+sal = float(input('Digite o salário do funcionario: '))
+nsal = sal + (sal * 15/100)
+
+print('O funcionário {} que ganhava {} agora ganharam {} com o aumento de 15%'.format(funcionario, sal, nsal))
