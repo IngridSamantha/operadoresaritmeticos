@@ -1,0 +1,13 @@
+aluno = str(input('Qual o nome do aluno: '))
+nota1 = float (input('Digite a primeira nota de {}: '.format(aluno)))
+nota2 = float (input('Digite a segunda nota de {}: '.format(aluno)))
+media = (nota1 + nota2) / 2
+
+print('{} tirando {:.1f} na primeira prova e {:.1f} na segunda prova, a média de {} é {:.1f}'.format(aluno, nota1, nota2, aluno, media))
+
+if media >= 7:
+    print('Dito isso {} está aprovado com média {:.1f}!'.format(aluno, media))
+elif media >= 6 and media < 7:
+    print('{} está de Recuperação com média {:.1f}!!'.format(aluno, media))
+else:
+    print('{} está REPROVADA e precisará repetir de ano'.format(aluno))
